@@ -1,0 +1,103 @@
+{"Connectors": [
+  {
+    "DataTypes": {
+      "Alerts": "Microsoft.Azure.Commands.SecurityInsights.Models.DataConnectors.PSSentinelDataConnectorDataTypeCommon"
+    },
+    "SubscriptionId": "4d794e2d-56a2-4aea-9e66-86e3936f095f",
+    "Name": "95f447bd-07c9-45ce-8941-ea306570cd91",
+    "Type": "Microsoft.SecurityInsights/dataConnectors",
+    "Etag": "a55a0123-6a6f-4f83-a4a2-c17b231a8503",
+    "Kind": "AzureSecurityCenter"
+  },
+  {
+    "DataTypes": {
+      "Alerts": "Microsoft.Azure.Commands.SecurityInsights.Models.DataConnectors.PSSentinelDataConnectorDataTypeCommon"
+    },
+    "SubscriptionId": "4d794e2d-56a2-4aea-9e66-86e3936f095f",
+    "Name": "f3a77055-d1fc-48e4-9ff9-9591615cb38d",
+    "Type": "Microsoft.SecurityInsights/dataConnectors",
+    "Etag": "12219e92-a32d-47dd-b452-04e0a37d3d50",
+    "Kind": "AzureSecurityCenter"
+  },
+  {
+    "DataTypes": {
+      "Alerts": "Microsoft.Azure.Commands.SecurityInsights.Models.DataConnectors.PSSentinelDataConnectorDataTypeCommon"
+    },
+    "SubscriptionId": "4d794e2d-56a2-4aea-9e66-86e3936f095f",
+    "Name": "8e006f23-4549-4d51-9767-cbe6b6a6382a",
+    "Type": "Microsoft.SecurityInsights/dataConnectors",
+    "Etag": "c102e7bb-c2f8-4b89-8a76-b661a5e75b2f",
+    "Kind": "AzureSecurityCenter"
+  },
+  {
+    "DataTypes": {
+      "Alerts": "Microsoft.Azure.Commands.SecurityInsights.Models.DataConnectors.PSSentinelDataConnectorDataTypeCommon"
+    },
+    "SubscriptionId": "4d794e2d-56a2-4aea-9e66-86e3936f095f",
+    "Name": "601ce953-50c6-455b-9aba-efc17d567f2a",
+    "Type": "Microsoft.SecurityInsights/dataConnectors",
+    "Etag": "c586d177-2daf-41bf-ae2e-063ce6b278c2",
+    "Kind": "AzureSecurityCenter"
+  },
+  {
+    "DataTypes": {
+      "Alerts": "Microsoft.Azure.Commands.SecurityInsights.Models.DataConnectors.PSSentinelDataConnectorDataTypeCommon"
+    },
+    "TenantId": "40719fa7-7cb7-4feb-b963-56bb8049ce7b",
+    "Name": "2c9414ce-bb41-4cf2-b819-9ebad88716f6",
+    "Type": "Microsoft.SecurityInsights/dataConnectors",
+    "Etag": "e92308ec-c906-4dcc-86b9-8d11ba3d5514",
+    "Kind": "AzureActiveDirectory"
+  },
+  {
+    "DataTypes": {
+      "Alerts": "Microsoft.Azure.Commands.SecurityInsights.Models.DataConnectors.PSSentinelDataConnectorDataTypeCommon"
+    },
+    "TenantId": "40719fa7-7cb7-4feb-b963-56bb8049ce7b",
+    "Name": "3cb05766-8400-4a82-b3b1-b13a639307cc",
+    "Type": "Microsoft.SecurityInsights/dataConnectors",
+    "Etag": "a05173cc-f6d0-40ee-8057-15f01fda4598",
+    "Kind": "AzureAdvancedThreatProtection"
+  },
+  {
+    "DataTypes": {
+      "Alerts": "Microsoft.Azure.Commands.SecurityInsights.Models.DataConnectors.PSSentinelDataConnectorDataTypeCommon",
+      "DiscoveryLogs": "Microsoft.Azure.Commands.SecurityInsights.Models.DataConnectors.PSSentinelDataConnectorDataTypeCommon"
+    },
+    "TenantId": "40719fa7-7cb7-4feb-b963-56bb8049ce7b",
+    "Name": "f2fd1efb-60ec-42a1-bf61-29f2562d0cf7",
+    "Type": "Microsoft.SecurityInsights/dataConnectors",
+    "Etag": "1587ff36-a269-4250-b838-26d2335debe5",
+    "Kind": "MicrosoftCloudAppSecurity"
+  },
+  {
+    "DataTypes": {
+      "Alerts": "Microsoft.Azure.Commands.SecurityInsights.Models.DataConnectors.PSSentinelDataConnectorDataTypeCommon"
+    },
+    "TenantId": "40719fa7-7cb7-4feb-b963-56bb8049ce7b",
+    "Name": "3f175dc6-55ce-4704-bea5-1088d470d86e",
+    "Type": "Microsoft.SecurityInsights/dataConnectors",
+    "Etag": "641e6c0e-092d-494a-b243-6c063f94a51e",
+    "Kind": "MicrosoftDefenderAdvancedThreatProtection"
+  },
+  {
+    "DataTypes": {
+      "Exchange": "Microsoft.Azure.Commands.SecurityInsights.Models.DataConnectors.PSSentinelDataConnectorDataTypeOfficeExchange",
+      "SharePoint": "Microsoft.Azure.Commands.SecurityInsights.Models.DataConnectors.PSSentinelDataConnectorDataTypeOfficeSharePoint"
+    },
+    "TenantId": "40719fa7-7cb7-4feb-b963-56bb8049ce7b",
+    "Name": "a9503d16-3c30-4855-a0d7-045566ad2b7a",
+    "Type": "Microsoft.SecurityInsights/dataConnectors",
+    "Etag": "c842435f-77c7-41d3-8eba-8c91f9fef48c",
+    "Kind": "Office365"
+  },
+  {
+    "Id": null,
+    "Name": "0511c711-a945-474a-8599-77fbf3ad3eb8",
+    "Type": null,
+    "Etag": null,
+    "Kind": "Error"
+  }
+]
+
+ }

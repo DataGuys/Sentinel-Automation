@@ -1,0 +1,32 @@
+{"MLBehaviorAnalytics": [
+  {
+    "alertRuleTemplateName": "737a2ce1-70a3-4968-9e90-3e6aca836abf",
+    "displayName": "(Preview) Anomalous RDP Login Detections",
+    "description": "This detection uses machine learning (ML) to identify anomalous Remote Desktop Protocol (RDP) login activity, based on Windows Security Event data. Scenarios include:\n\n*\tUnusual IP - This IP address has not or has rarely been seen in last 30 days.\n*\tUnusual Geo - The IP address, city, country and ASN have not (or rarely) been seen in last 30 days.\n*\tNew user - A new user logs in from an IP address and geo location, both or either of which are not expected to be seen in the last 30 days.\n\nAllow 7 days after this alert is enabled for Azure Sentinel to build a profile of normal activity for your environment.\t\n\nThis detection requires a specific configuration of the data source. [Learn more](https://docs.microsoft.com/en-us/azure/sentinel/connect-windows-security-events)",
+    "tactics": [
+      "InitialAccess"
+    ],
+    "severity": "Medium",
+    "enabled": true,
+    "lastModifiedUtc": "2021-03-10T14:33:10.9757836Z",
+    "name": "bff06bdb-5dc7-4f41-b2b0-fc93ac94151d",
+    "kind": "MLBehaviorAnalytics",
+    "playbookName": ""
+  },
+  {
+    "alertRuleTemplateName": "fa118b98-de46-4e94-87f9-8e6d5060b60b",
+    "displayName": "(Preview) Anomalous SSH Login Detection",
+    "description": "This detection uses machine learning (ML) to identify anomalous Secure Shell (SSH) login activity, based on syslog data. Scenarios include:\n\n*\tUnusual IP - This IP address has not or has rarely been seen in last 30 days.\n*\tUnusual Geo - The IP address, city, country and ASN have not (or rarely) been seen in last 30 days.\n*\tNew user - A new user logs in from an IP address and geo location, both or either of which are not expected to be seen in the last 30 days.\n\nAllow 7 days after this alert is enabled for Azure Sentinel to build a profile of normal activity for your environment.\n\nThis detection requires a specific configuration of the data source. [Learn more](https://docs.microsoft.com/en-us/azure/sentinel/connect-syslog#configure-the-syslog-connector-for-anomalous-ssh-login-detection)",
+    "tactics": [
+      "InitialAccess"
+    ],
+    "severity": "Medium",
+    "enabled": true,
+    "lastModifiedUtc": "2021-03-10T14:36:21.680586Z",
+    "name": "1c516a29-be5e-4564-8ebb-69e218401ea9",
+    "kind": "MLBehaviorAnalytics",
+    "playbookName": ""
+  }
+]
+
+}

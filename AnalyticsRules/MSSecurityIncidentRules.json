@@ -1,0 +1,141 @@
+{"MicrosoftSecurityIncidentCreation": [
+  {
+    "productFilter": "Azure Active Directory Identity Protection",
+    "severitiesFilter": [
+      "High",
+      "Medium"
+    ],
+    "displayNamesFilter": null,
+    "displayNamesExcludeFilter": [
+      "Unfamiliar sign-in properties",
+      "Anonymous IP address"
+    ],
+    "displayName": "Create incidents based on Azure Active Directory Identity Protection alerts",
+    "enabled": true,
+    "description": "Create incidents based on all alerts generated in Azure Active Directory Identity Protection",
+    "tactics": null,
+    "alertRuleTemplateName": "532c1811-79ee-4d9f-8d4d-6304c840daa1",
+    "name": "b18c43c9-0d24-4496-8e94-25ee6238a639",
+    "kind": "MicrosoftSecurityIncidentCreation",
+    "playbookName": ""
+  },
+  {
+    "productFilter": "Microsoft Defender Advanced Threat Protection",
+    "severitiesFilter": [
+      "Medium",
+      "High"
+    ],
+    "displayNamesFilter": null,
+    "displayNamesExcludeFilter": null,
+    "displayName": "Create incidents based on Microsoft Defender Advanced Threat Protection alerts",
+    "enabled": true,
+    "description": "Create incidents based on all alerts generated in Microsoft Defender Advanced Threat Protection",
+    "tactics": null,
+    "alertRuleTemplateName": "327cd4ed-ca42-454b-887c-54e1c91363c6",
+    "name": "c830fe7a-011b-4b57-8ee6-109bb7a35a10",
+    "kind": "MicrosoftSecurityIncidentCreation",
+    "playbookName": ""
+  },
+  {
+    "productFilter": "Azure Security Center",
+    "severitiesFilter": [
+      "Medium",
+      "High"
+    ],
+    "displayNamesFilter": null,
+    "displayNamesExcludeFilter": null,
+    "displayName": "Create incidents based on Azure Security Center alerts",
+    "enabled": true,
+    "description": "Create incidents based on all alerts generated in Azure Security Center",
+    "tactics": null,
+    "alertRuleTemplateName": "90586451-7ba8-4c1e-9904-7d1b7c3cc4d6",
+    "name": "969ee126-61fe-4bdc-8545-9c6f3d392134",
+    "kind": "MicrosoftSecurityIncidentCreation",
+    "playbookName": ""
+  },
+  {
+    "productFilter": "Azure Advanced Threat Protection",
+    "severitiesFilter": [
+      "Medium",
+      "High"
+    ],
+    "displayNamesFilter": null,
+    "displayNamesExcludeFilter": null,
+    "displayName": "Create incidents based on Azure Advanced Threat Protection alerts",
+    "enabled": true,
+    "description": "Create incidents based on all alerts generated in Azure Advanced Threat Protection",
+    "tactics": null,
+    "alertRuleTemplateName": "40ba9493-4183-4eee-974f-87fe39c8f267",
+    "name": "5edc7ecf-b7d4-4c5e-9e4b-a4c0f3a96b42",
+    "kind": "MicrosoftSecurityIncidentCreation",
+    "playbookName": ""
+  },
+  {
+    "productFilter": "Office 365 Advanced Threat Protection",
+    "severitiesFilter": [
+      "Medium",
+      "High"
+    ],
+    "displayNamesFilter": null,
+    "displayNamesExcludeFilter": [
+      "User restricted from sending email"
+    ],
+    "displayName": "Create incidents based on Office 365 Advanced Threat Protection alerts",
+    "enabled": true,
+    "description": "Create incidents based on all alerts generated in Office 365 Advanced Threat Protection",
+    "tactics": null,
+    "alertRuleTemplateName": "ee1d718b-9ed9-4a71-90cd-a483a4f008df",
+    "name": "beb5607d-168d-4edf-88e4-ac55182e291f",
+    "kind": "MicrosoftSecurityIncidentCreation",
+    "playbookName": ""
+  },
+  {
+    "productFilter": "Azure Security Center for IoT",
+    "severitiesFilter": [
+      "Medium",
+      "High"
+    ],
+    "displayNamesFilter": null,
+    "displayNamesExcludeFilter": null,
+    "displayName": "Create incidents based on Azure Security Center for IoT alerts",
+    "enabled": true,
+    "description": "Create incidents based on all alerts generated in Azure Security Center for IoT",
+    "tactics": null,
+    "alertRuleTemplateName": "a2e0eb51-1f11-461a-999b-cd0ebe5c7a72",
+    "name": "c3125530-18c0-40c2-a37b-509ba7e31afa",
+    "kind": "MicrosoftSecurityIncidentCreation",
+    "playbookName": ""
+  },
+  {
+    "productFilter": "Microsoft Cloud App Security",
+    "severitiesFilter": [
+      "Medium",
+      "High"
+    ],
+    "displayNamesFilter": null,
+    "displayNamesExcludeFilter": [
+      "Impossible travel activity",
+      "Atypical travel",
+      "Unfamiliar sign-in properties",
+      "Activity from an anonymous proxy",
+      "Add Recipient Permission Alert",
+      "Add Full Mailbox Permission Policy",
+      "Change User License Policy",
+      "Mass delete",
+      "Mass download",
+      "Cloud Discovery anomaly detection",
+      "Multiple delete VM activities",
+      "Multiple VM creation activities"
+    ],
+    "displayName": "Create incidents based on Microsoft Cloud App Security alerts",
+    "enabled": true,
+    "description": "Create incidents based on all alerts generated in Microsoft Cloud App Security",
+    "tactics": null,
+    "alertRuleTemplateName": "b3cfc7c0-092c-481c-a55b-34a3979758cb",
+    "name": "deb28613-6349-44a7-ae1f-8e1e506f3232",
+    "kind": "MicrosoftSecurityIncidentCreation",
+    "playbookName": ""
+  }
+]
+
+}
