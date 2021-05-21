@@ -1,0 +1,9 @@
+{
+    "logAnalyticsWorkspaceId": {
+        "type": "String",
+        "metadata": {
+            "displayName": "Log Analytics Workspace Id that VMs should be configured for",
+            "description": "This is the Id (GUID) of the Log Analytics Workspace that the VMs should be configured for."
+        }
+    }
+}
